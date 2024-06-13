@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Digitalwellbeing" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textViewStyle">@style/AppTextViewStyle</item>
+        <item name="android:buttonStyle">@style/AppButtonStyle</item>
+    </style>
+    <style name="Theme.Digitalwellbeing.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Digitalwellbeing.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Digitalwellbeing.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/app_font</item>
+    </style>
+
+    <style name="AppButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/app_font</item>
+    </style>
+
+</resources>

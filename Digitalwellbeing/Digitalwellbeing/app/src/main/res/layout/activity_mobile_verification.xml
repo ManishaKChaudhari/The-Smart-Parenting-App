@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    tools:context=".Registration.MobileVerificationActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/register_image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_purple"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:layout_marginTop="20dp"
+        android:text="OTP Verification"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:text="We will send you a One Time Password on this Number"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_purple"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="40dp"
+        android:text="Enter Mobile Number"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="+91 - "/>
+        
+        <EditText
+            android:id="@+id/mobile_number"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:hint="0000000000"
+            android:textColorHint="@color/grey"
+            android:layout_marginStart="15dp"
+            android:textSize="20sp"
+            android:inputType="number"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:maxLength="10"
+            android:imeOptions="actionDone"/>
+        
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="10dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:visibility="gone"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/get_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_bg_fill"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:text="Get OTP"
+            android:textStyle="bold"/>
+
+    </FrameLayout>
+
+</LinearLayout>

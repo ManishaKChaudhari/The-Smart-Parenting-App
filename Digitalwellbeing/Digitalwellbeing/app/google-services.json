@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "217577602948",
+    "firebase_url": "https://smart-parenting-f43b2-default-rtdb.firebaseio.com",
+    "project_id": "smart-parenting-f43b2",
+    "storage_bucket": "smart-parenting-f43b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217577602948:android:3f20bc25c9fa68ffaca7d1",
+        "android_client_info": {
+          "package_name": "com.digitech.digitalwellbeing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6D9U2701PoA9FQy_cXTxpbdjrl6MySdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217577602948:android:eef68ccd01a6ece9aca7d1",
+        "android_client_info": {
+          "package_name": "com.example.smartparenting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6D9U2701PoA9FQy_cXTxpbdjrl6MySdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
